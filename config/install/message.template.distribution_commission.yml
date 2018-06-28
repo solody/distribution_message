@@ -1,0 +1,16 @@
+langcode: zh-hans
+status: true
+dependencies: {  }
+template: distribution_commission
+label: 分销佣金消息
+description: ''
+text:
+  -
+    value: '你获得分销佣金 @amount 元。'
+    format: restricted_html
+settings:
+  'token options':
+    clear: false
+    'token replace': false
+  purge_override: false
+  purge_methods: {  }

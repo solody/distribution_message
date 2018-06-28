@@ -1,0 +1,14 @@
+{
+  "name": "drupal/distribution_message",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/distribution_message",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/distribution_message",
+    "source": "http://cgit.drupalcode.org/distribution_message"
+  },
+  "require": { }
+}

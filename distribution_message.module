@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains distribution_message.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function distribution_message_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the distribution_message module.
+    case 'help.page.distribution_message':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function distribution_message_theme() {
+  return [
+    'distribution_message' => [
+      'render element' => 'children',
+    ],
+  ];
+}

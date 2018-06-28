@@ -1,0 +1,6 @@
+services:
+  distribution_message.event_subscriber.distribution_commission:
+    class: Drupal\distribution_message\EventSubscriber\DistributionCommission
+    arguments: []
+    tags:
+      - { name: event_subscriber }
